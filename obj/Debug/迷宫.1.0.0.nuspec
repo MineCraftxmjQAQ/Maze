@@ -5,6 +5,7 @@
     <version>1.0.0</version>
     <authors>迷宫</authors>
     <description>Package Description</description>
+    <repository type="git" />
     <dependencies>
       <group targetFramework="net6.0-windows7.0" />
     </dependencies>
@@ -15,7 +16,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="C:\Users\19603\source\repos\迷宫\bin\Debug\net6.0-windows\迷宫.runtimeconfig.json" target="lib\net6.0-windows7.0\迷宫.runtimeconfig.json" />
-    <file src="C:\Users\19603\source\repos\迷宫\bin\Debug\net6.0-windows\迷宫.dll" target="lib\net6.0-windows7.0\迷宫.dll" />
+    <file src="C:\Users\19603\Desktop\迷宫\bin\Debug\net6.0-windows\迷宫.runtimeconfig.json" target="lib\net6.0-windows7.0\迷宫.runtimeconfig.json" />
+    <file src="C:\Users\19603\Desktop\迷宫\bin\Debug\net6.0-windows\迷宫.dll" target="lib\net6.0-windows7.0\迷宫.dll" />
   </files>
 </package>

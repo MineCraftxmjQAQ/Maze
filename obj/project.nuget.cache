@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MbfdcDLcwvza0zZaJGO5fmJKQx4giBmsrlkgZok8l4cDIotIGabUaLFRCXjqTi+w7QDIl2u7SUX0GmNf88gM2Q==",
+  "dgSpecHash": "2+yCQkXulDU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\19603\\source\\repos\\迷宫\\迷宫.vbproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\19603\\Desktop\\迷宫\\迷宫.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\19603\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\19603\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\19603\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\19603\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }

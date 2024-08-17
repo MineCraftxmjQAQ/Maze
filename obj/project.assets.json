@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\19603\\source\\repos\\迷宫\\迷宫.vbproj",
+      "projectUniqueName": "C:\\Users\\19603\\Desktop\\迷宫\\迷宫.vbproj",
       "projectName": "迷宫",
-      "projectPath": "C:\\Users\\19603\\source\\repos\\迷宫\\迷宫.vbproj",
+      "projectPath": "C:\\Users\\19603\\Desktop\\迷宫\\迷宫.vbproj",
       "packagesPath": "C:\\Users\\19603\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\19603\\source\\repos\\迷宫\\obj\\",
+      "outputPath": "C:\\Users\\19603\\Desktop\\迷宫\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\19603\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -56,6 +61,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -64,7 +87,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

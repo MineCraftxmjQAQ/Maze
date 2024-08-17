@@ -1,6 +1,5 @@
 ﻿Public Class Form1
     Private ReadOnly ScreenX As Integer = SystemInformation.PrimaryMonitorSize.Width '获取屏幕横向分辨率
-    'private ScreenY As Integer = SystemInformation.PrimaryMonitorSize.Height '获取屏幕纵向分辨率
     Public Raw() As Integer = New Integer(400) {}
     Public Sign() As Integer = New Integer(400) {}
     Private Start As Integer
@@ -275,8 +274,6 @@
         End If
         AllCount += 1
         While NowBlock <> EndBlcok
-            'MsgBox("当前计数:" + Str(AllCount) + "当前坐标:第" + Str(row) + "行,第" + Str(col) + "列,存在" + Str(DirectCount) + "个可前进方向" +
-            'vbCrLf + "开出方向" + Str(DirectTemp(0)) + " " + Str(DirectTemp(1)) + " " + Str(DirectTemp(2)) + " " + Str(DirectTemp(3)), , "Debug")
             row = (NowBlock - 1) \ 20 + 1 '行号
             col = (NowBlock - 1) Mod 20 + 1 '列号
             DirectCount = 0
@@ -335,7 +332,6 @@
                 AllCount = temp
                 RawT(Route(temp + 1, 0)) = 0
                 NowBlock = Route(temp, 0)
-                'MsgBox("当前为死路格,退回至:" + Str(Route(temp, 0)) + "清除:" + Str(Route(temp + 1, 0)))
                 temp += 1
                 While temp <= 400 And Route(temp, 0) <> 0
                     Route(temp, 0) = 0
